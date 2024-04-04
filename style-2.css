@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: #fc8f6a;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    transition: 0.5s;
+}
+
+.box:hover {
+    background-color: #808080;
+    border-radius: 50%;
+    transition: 0.5s;
+;
+}
