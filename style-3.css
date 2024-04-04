@@ -12,6 +12,13 @@ body {
     margin: 15px;
 }
 
+.box-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
 .widgets {
     height: 300px;
     background-color: #216ABB;
@@ -23,13 +30,6 @@ body {
     justify-content: space-between;
     color: #898993;
     margin-top: 20px;
-}
-
-.box-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
 }
 
 .box {
