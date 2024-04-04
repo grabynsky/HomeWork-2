@@ -1,0 +1,47 @@
+body {
+    color: #fff;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 15px;
+}
+
+.widgets {
+    height: 300px;
+    background-color: #216ABB;
+    font-size: 50px;
+}
+
+.three-big {
+    display: flex;
+    justify-content: space-between;
+    color: #898993;
+    margin-top: 20px;
+}
+
+.box-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.box {
+    width: 32%;
+    height: 200px;
+    background-color: #16457A;
+    font-size: 40px;
+}
+
+.content {
+    height: 400px;
+    background-color: #216ABB;
+    margin-top: 20px;
+    font-size: 50px;
+}
